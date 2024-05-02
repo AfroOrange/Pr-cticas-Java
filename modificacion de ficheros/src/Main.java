@@ -21,7 +21,7 @@ public class Main {
                 }
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -31,7 +31,7 @@ public class Main {
             filePath.write("\n" + dni + ", " + nombre + ", " + apellidos + ", " + correo + "\n");
             System.out.println("Datos agregados: " + dni + ", " + nombre + ", " + apellidos + ", " + correo);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -53,7 +53,7 @@ public class Main {
                 filePath.write(line + "\n");
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -63,7 +63,7 @@ public class Main {
         try {
             archivo = new BufferedReader(new FileReader("modificacion de ficheros/usuarios.txt"));
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
         // "Menú"
@@ -79,7 +79,7 @@ public class Main {
                 try {
                     mostrarUsuarios(archivo);
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    e.printStackTrace();
                 }
             }
             if (respuesta == 2) {

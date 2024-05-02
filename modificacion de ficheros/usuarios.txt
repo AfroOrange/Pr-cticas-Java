@@ -27,12 +27,5 @@
 78901234A, Teresa, Vega Esteban, teresa.vega@example.com
 89012345B, IvÃ¡n, Lara Mercado, ivan.lara@example.com
 01234567D, Gustavo, Aguilar Campos, gustavo.aguilar@example.com
-02103123d, Manuel, López Ortega, manuelortega@correo.com 
-02103123d, Elena, Marrero Dávila, elenadav@correo.com, 
-02103123d, Manuel, López Ortega, manuelortega@correo.com 
-02103123d, Elena, Marrero Dávila, elenadav@correo.com, 
-02103123d, Manuel, López Ortega, manuelortega@correo.com 
-02103123d, Elena, Marrero Dávila, elenadav@correo.com, 
-02103123d, Manuel, López Ortega, manuelortega@correo.com 
-02103123d, Elena, Marrero Dávila, elenadav@correo.com, 
-1313, lionel, andres, messi@gmail.com 
+02103123d, Manuel, Lï¿½pez Ortega, manuelortega@correo.com 
+09103123Z, Elena, Marrero Dï¿½vila, elenadav@correo.com
